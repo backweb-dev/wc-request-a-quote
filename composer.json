@@ -1,17 +1,17 @@
 {
-  "name": "vendor-name/example-package",
+  "name": "backweb/wc-request-a-quote",
   "type": "package",
-  "description": "An example package for Roots Acorn.",
+  "description": "Allows you to transform your woocommerce store into a catalog with quote request",
   "license": "MIT",
   "authors": [
     {
-      "name": "Brandon Nifong",
-      "email": "brandon@tendency.me"
+      "name": "Backweb",
+      "email": "contact@backweb.dev"
     }
   ],
   "autoload": {
     "psr-4": {
-      "VendorName\\ExamplePackage\\": "src/"
+      "Backweb\\WcRequestQuote\\": "src/"
     }
   },
   "require": {
@@ -20,10 +20,10 @@
   "extra": {
     "acorn": {
       "providers": [
-        "VendorName\\ExamplePackage\\Providers\\ExampleServiceProvider"
+        "Backweb\\WcRequestQuote\\Providers\\WcRequestQuoteServiceProvider"
       ],
       "aliases": {
-        "Example": "VendorName\\ExamplePackage\\Facades\\Example"
+        "Example": "Backweb\\WcRequestQuote\\Facades\\Example"
       }
     }
   }

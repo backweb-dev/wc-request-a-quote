@@ -1,6 +1,6 @@
 <?php
 
-namespace VendorName\ExamplePackage\Facades;
+namespace Backweb\WcRequestQuote\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

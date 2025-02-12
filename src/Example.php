@@ -1,6 +1,6 @@
 <?php
 
-namespace VendorName\ExamplePackage;
+namespace Backweb\WcRequestQuote;
 
 use Illuminate\Support\Arr;
 use Roots\Acorn\Application;

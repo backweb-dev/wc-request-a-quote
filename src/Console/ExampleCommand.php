@@ -1,9 +1,9 @@
 <?php
 
-namespace VendorName\ExamplePackage\Console;
+namespace Backweb\WcRequestQuote\Console;
 
 use Roots\Acorn\Console\Commands\Command;
-use VendorName\ExamplePackage\Facades\Example;
+use Backweb\WcRequestQuote\Facades\Example;
 
 class ExampleCommand extends Command
 {
